@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+}
+.header {
+  position: static;
+  height: 50px;
+  background-color: white;
+}
+.body {
+  position: relative;
+  height: 520px;
+  top : 20px;
+  background-color: white;
+}
+.footer {
+  position: relative;
+  height: 80px;
+  top : 50px;
+  background-color: white;
+}
+.header1 {
+  position: absolute;
+  color : white;
+  text-align: center;
+  padding-top: 2px;
+
+  top: 0px;
+  left: 725px;
+  margin: 12px;
+  width: 175px;
+  height: 40px;
+  background-color: black;
+}
+
+.header2 {
+  position: absolute;
+
+  color : white;
+  text-align: center;
+
+  top: 0px;
+  left: 925px;
+  margin: 12px;
+  width: 175px;
+  height: 40px;
+  background-color: black;
+}
+.header3 {
+  position: absolute;
+
+  color : white;
+  text-align: center;
+
+  top: 0px;
+  left: 1125px;
+  margin: 12px;
+  width: 175px;
+  height: 40px;
+  background-color: black;
+
+}
+.header4 {
+  position: absolute;
+
+  color : white;
+  text-align: center;
+
+  top: 0px;
+  left: 1325px;
+  margin: 12px;
+  width: 175px;
+  height: 40px;
+  background-color: black;
+}
+.mainText{
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  top : 30px;
+}
+.MainTextDescription{
+  position: relative;
+  text-align: center;
+  top: 50px;
+  font-size: 20px;
+}
+.body1 {
+  position: absolute;
+
+  color : white;
+  text-align: center;
+  padding-top: 2px;
+
+  top: 0px;
+  left: 590px;
+  margin: 210px;
+  width: 120px;
+  height: 70px;
+  background-color: black;
+}
+.body2 {
+  position: absolute;
+
+  color : white;
+  text-align: center;
+  padding-top: 2px;
+
+  top: 0px;
+  left: 390px;
+  margin: 210px;
+  width: 120px;
+  height: 70px;
+  background-color: black;
+}
+.Body1_Text{
+  top: 20px;
+}
