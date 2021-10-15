@@ -76,58 +76,6 @@ body {
   height: 40px;
   background-color: black;
 }
-.mainText{
-  position: relative;
-  text-align: center;
-  font-size: 30px;
-  top : 30px;
-}
-.MainTextDescription{
-  position: relative;
-  text-align: center;
-  top: 50px;
-  font-size: 20px;
-}
-.body1 {
-  position: absolute;
-
-  color : white;
-  text-align: center;
-  padding-top: 2px;
-  box-shadow: 5px 10px #888888;
-
-  top: 0px;
-  left: 590px;
-  margin: 210px;
-  width: 120px;
-  height: 70px;
-  background-color: black;
-}
-.body2 {
-  position: absolute;
-
-  color : white;
-  text-align: center;
-  padding-top: 2px;
-  box-shadow: 5px 10px #888888;
-
-  top: 0px;
-  left: 390px;
-  margin: 210px;
-  width: 120px;
-  height: 70px;
-  background-color: black;
-}
-.Body1_Text{
-  top: 20px;
-}
-.address{
-    position: absolute;
-    top: 300px;
-    left: 500px;
-    max-width: 100%;
-    height: auto;
-}
 .email_and_address{
   position: absolute;
   font-size: 14px;
