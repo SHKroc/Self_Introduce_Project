@@ -34,7 +34,8 @@ public class self_introduce extends HttpServlet {
 		DateTimeFormatter df = DateTimeFormatter.ofPattern("HH:mm:ss");
 		LocalTime localTime = LocalTime.now();
 		
-		out.printf("<a href=\"C:\\Users\\SH\\OneDrive\\Desktop\\html\\Introduce_MySelf_Project\\html_Introduce_MySelf\">back<a>");
+		
+		out.printf("<a href=\"C:\\Users\\SH\\OneDrive\\Desktop\\html\\Introduce_MySelf_Project\\index.html\">back<a>");
 		out.printf("<h1 style= \"text-align:center\">Time : %s %s</h1>", dtf.format(localDate), df.format(localTime));
 	}
 
