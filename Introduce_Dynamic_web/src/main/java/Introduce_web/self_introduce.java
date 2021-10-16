@@ -29,11 +29,13 @@ public class self_introduce extends HttpServlet {
 
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("uuuu/MM/dd");
 		LocalDate localDate = LocalDate.now();
-		out.println(dtf.format(localDate));
+
 
 		DateTimeFormatter df = DateTimeFormatter.ofPattern("HH:mm:ss");
 		LocalTime localTime = LocalTime.now();
-		out.println(df.format(localTime)); 
+		
+		out.printf("<a href=\"C:\\Users\\SH\\OneDrive\\Desktop\\html\\Introduce_MySelf_Project\\html_Introduce_MySelf\">back<a>");
+		out.printf("<h1 style= \"text-align:center\">Time : %s %s</h1>", dtf.format(localDate), df.format(localTime));
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
